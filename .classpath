@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/usr/share/java/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="/home/ebrunner/programmation/UGV&amp;Video/webcamStreamLib/webcam-capture-live-streaming.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/coobird/thumbnailator">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/ebrunner/.m2/repository"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/ebrunner/.m2/repository/net/coobird/thumbnailator/0.4.3/thumbnailator-0.4.3.jar"/>
+	<classpathentry kind="lib" path="/home/ebrunner/.m2/repository/io/netty/netty/3.6.3.Final/netty-3.6.3.Final.jar"/>
+	<classpathentry kind="lib" path="/home/ebrunner/.m2/repository/org/slf4j/slf4j-jdk14/1.7.3/slf4j-jdk14-1.7.3.jar"/>
+	<classpathentry kind="lib" path="/home/ebrunner/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/home/ebrunner/.m2/repository/xuggle/xuggle-xuggler/5.4/xuggle-xuggler-5.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

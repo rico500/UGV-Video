@@ -1,0 +1,23 @@
+import Tkinter as tk
+
+class Gui(object):
+    
+    def __init__(self, master):
+        
+        frame = Frame(master)
+        frame.pack()
+
+        self.exit = Button(frame, text='exit', callback=self.destroy)
+        self.exit.pack(side=LEFT)
+
+        self.led = Button(frame, text='on/off', callback=DISABLED)
+        self.led.pack(side=RIGHT)
+
+        def destroy(self):
+            self.destroy()
+
+root = tk.Tk()
+
+gui = Gui(root)
+
+root.mainloop

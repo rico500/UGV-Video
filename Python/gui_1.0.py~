@@ -1,0 +1,24 @@
+from Tkinter import *
+
+class App:
+
+    def __init__(self, master):
+
+        self.master = master
+
+
+        self.exit = Button(master, text= "QUIT", fg="red", command=master.quit)
+        self.exit.grid(column= 1, row= 1, sticky= SE)
+
+
+        master.bind("<Escape>", self.escape)
+
+
+    def escape(self, event):
+        print "Quit: App"
+        self.master.destroy()
+
+  
+root = Tk()
+app = App(root)
+root.mainloop()
